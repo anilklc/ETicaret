@@ -11,5 +11,6 @@ namespace ETicaret.Domain.Entities.Common
         //Zaten tüm enttiylerimde olucaklar tekrar tekrar yazmaktansa baseEntityde tutmak daha mantıklı
         public int Id { get; set; }
         public DateTime CreatedDate { get; set; }
+        public DateTime UpdatedDate { get; set;}
     }
 }

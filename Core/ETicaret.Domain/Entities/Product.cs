@@ -11,7 +11,7 @@ namespace ETicaret.Domain.Entities
     {
         public string Name { get; set; }
         public int Stock {  get; set; }
-        public long Price { get; set; }
+        public float Price { get; set; }
 
         //çoka çok ilişki order ve product arasında
         public ICollection<Order> Orders { get; set; }

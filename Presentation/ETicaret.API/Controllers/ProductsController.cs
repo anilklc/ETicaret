@@ -19,14 +19,17 @@ namespace ETicaret.API.Controllers
         }
 
         [HttpGet]
-        public async void GetProducts() 
+        public async Task GetProducts() 
         {
-            await _productWriteRepository.AddRangeAsync(new() 
+           /* await _productWriteRepository.AddRangeAsync(new() 
             {  new() {Name="Test",Price=100,CreatedDate=DateTime.Now,Stock=10},
                new() {Name="Test 2",Price=150,CreatedDate=DateTime.Now,Stock=15}
             });
 
-            var count=await _productWriteRepository.SaveAsync();
+            var count=await _productWriteRepository.SaveAsync();*/
+
+
+
         }
     }
 }
